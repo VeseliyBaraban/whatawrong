@@ -1,0 +1,24 @@
+@mixin flexbox() {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 0;
+}
+
+@mixin tr($x, $y, $z) {
+	transform: translate3d($x, $y, $z);
+	-moz-transform: ($x, $y, $z);
+	-o-transform: ($x, $y, $z);
+	-ms-transform: ($x, $y, $z);
+	-webkit-transform: ($x, $y, $z);
+	transform: ($x, $y, $z);
+}
+
+@mixin text($fz, $c, $lh, $fw) {
+	font-size: $fz;
+	color: $c;
+	line-height: $lh;
+	font-weight: $fw;
+}

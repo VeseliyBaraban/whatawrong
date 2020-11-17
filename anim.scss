@@ -1,0 +1,341 @@
+.roll {
+	img {
+		width: 65px;
+		height: 65px;
+	}
+}
+
+.sushi {
+	img {
+		width: 70px;
+		height: 70px;
+	}
+}
+
+.roll1 {
+	position: absolute;
+	top: -100px;
+	left: 140px;
+
+	img {
+		animation-name: rollanim1;
+		animation-duration: 5s;
+		animation-timing-function: ease-in-out; // сценарий развития анимации между ключевыми кадрами
+		animation-iteration-count: infinite; // кол-во проигрывания анимациии или бесконечность infinite
+		animation-direction: alternate; //Тип и направления проигрывания анимации - alternate(каждый чётный), alternate-reverse, reverse - задом наперёд
+		animation-play-state: running; //Состояние анимации none/running/paused
+		animation-delay: 0s; //Время до начала анимации, можно указать отрицательные значение
+		animation-fill-mode: none; // Определяет, какие стили должны применяться к элементу, когда анимация не проигрывается. Например, после её завершения или при останов
+	}
+}
+
+@keyframes rollanim1 {
+	0% {
+		transform: scale(1) rotate(-30deg);
+	}
+	50% {
+	}
+	100% {
+		transform: rotate(10deg) scale(1.2);
+	}
+}
+
+.roll2 {
+	position: absolute;
+	top: 380px;
+	right: 160px;
+
+	img {
+		animation-name: rollanim2;
+		animation-duration: 5s;
+		animation-timing-function: ease-in-out; // сценарий развития анимации между ключевыми кадрами
+		animation-iteration-count: infinite; // кол-во проигрывания анимациии или бесконечность infinite
+		animation-direction: alternate; //Тип и направления проигрывания анимации - alternate(каждый чётный), alternate-reverse, reverse - задом наперёд
+		animation-play-state: running; //Состояние анимации none/running/paused
+		animation-delay: 0s; //Время до начала анимации, можно указать отрицательные значение
+		animation-fill-mode: none; // Определяет, какие стили должны применяться к элементу, когда анимация не проигрывается. Например, после её завершения или при останов
+	}
+}
+
+@keyframes rollanim2 {
+	0% {
+		transform: scale(1) rotate(30deg);
+	}
+	50% {
+	}
+	100% {
+		transform: rotate(-10deg) scale(1.2);
+	}
+}
+
+.roll3 {
+	position: absolute;
+	bottom: -380px;
+	left: 500px;
+
+	img {
+		animation-name: rollanim3;
+		animation-duration: 5s;
+		animation-timing-function: ease-in-out; // сценарий развития анимации между ключевыми кадрами
+		animation-iteration-count: infinite; // кол-во проигрывания анимациии или бесконечность infinite
+		animation-direction: alternate; //Тип и направления проигрывания анимации - alternate(каждый чётный), alternate-reverse, reverse - задом наперёд
+		animation-play-state: running; //Состояние анимации none/running/paused
+		animation-delay: 0s; //Время до начала анимации, можно указать отрицательные значение
+		animation-fill-mode: none; // Определяет, какие стили должны применяться к элементу, когда анимация не проигрывается. Например, после её завершения или при останов
+	}
+}
+
+@keyframes rollanim3 {
+	0% {
+		transform: scale(1) rotate(30deg);
+	}
+	50% {
+	}
+	100% {
+		transform: rotate(-10deg) scale(1.2);
+	}
+}
+
+.sushi1 {
+	position: absolute;
+	bottom: -330px;
+	left: 1000px;
+
+	img {
+		animation-name: sushianim1;
+		animation-duration: 5s;
+		animation-timing-function: ease-in-out; // сценарий развития анимации между ключевыми кадрами
+		animation-iteration-count: infinite; // кол-во проигрывания анимациии или бесконечность infinite
+		animation-direction: alternate; //Тип и направления проигрывания анимации - alternate(каждый чётный), alternate-reverse, reverse - задом наперёд
+		animation-play-state: running; //Состояние анимации none/running/paused
+		animation-delay: 0s; //Время до начала анимации, можно указать отрицательные значение
+		animation-fill-mode: none; // Определяет, какие стили должны применяться к элементу, когда анимация не проигрывается. Например, после её завершения или при останов
+	}
+}
+
+@keyframes sushianim1 {
+	0% {
+		transform: scale(1) rotate(20deg);
+	}
+	50% {
+	}
+	100% {
+		transform: rotate(-30deg) scale(1.2);
+	}
+}
+
+.sushi2 {
+	position: absolute;
+	top: -200px;
+	right: 100px;
+
+	img {
+		animation-name: sushianim2;
+		animation-duration: 5s;
+		animation-timing-function: ease-in-out; // сценарий развития анимации между ключевыми кадрами
+		animation-iteration-count: infinite; // кол-во проигрывания анимациии или бесконечность infinite
+		animation-direction: alternate; //Тип и направления проигрывания анимации - alternate(каждый чётный), alternate-reverse, reverse - задом наперёд
+		animation-play-state: running; //Состояние анимации none/running/paused
+		animation-delay: 0s; //Время до начала анимации, можно указать отрицательные значение
+		animation-fill-mode: none; // Определяет, какие стили должны применяться к элементу, когда анимация не проигрывается. Например, после её завершения или при останов
+	}
+}
+
+@keyframes sushianim2 {
+	0% {
+		transform: scale(1) rotate(70deg);
+	}
+	50% {
+	}
+	100% {
+		transform: rotate(-10deg) scale(1.2);
+	}
+}
+
+.sushi2 {
+	position: absolute;
+	top: -200px;
+	right: 60px;
+
+	img {
+		animation-name: sushianim2;
+		animation-duration: 5s;
+		animation-timing-function: ease-in-out; // сценарий развития анимации между ключевыми кадрами
+		animation-iteration-count: infinite; // кол-во проигрывания анимациии или бесконечность infinite
+		animation-direction: alternate; //Тип и направления проигрывания анимации - alternate(каждый чётный), alternate-reverse, reverse - задом наперёд
+		animation-play-state: running; //Состояние анимации none/running/paused
+		animation-delay: 0s; //Время до начала анимации, можно указать отрицательные значение
+		animation-fill-mode: none; // Определяет, какие стили должны применяться к элементу, когда анимация не проигрывается. Например, после её завершения или при останов
+	}
+}
+
+@keyframes sushianim2 {
+	0% {
+		transform: scale(1) rotate(70deg);
+	}
+	50% {
+	}
+	100% {
+		transform: rotate(-10deg) scale(1.2);
+	}
+}
+
+.sushi3 {
+	position: absolute;
+	bottom: -100px;
+	left: 160px;
+
+	img {
+		animation-name: sushianim2;
+		animation-duration: 5s;
+		animation-timing-function: ease-in-out; // сценарий развития анимации между ключевыми кадрами
+		animation-iteration-count: infinite; // кол-во проигрывания анимациии или бесконечность infinite
+		animation-direction: alternate; //Тип и направления проигрывания анимации - alternate(каждый чётный), alternate-reverse, reverse - задом наперёд
+		animation-play-state: running; //Состояние анимации none/running/paused
+		animation-delay: 0s; //Время до начала анимации, можно указать отрицательные значение
+		animation-fill-mode: none; // Определяет, какие стили должны применяться к элементу, когда анимация не проигрывается. Например, после её завершения или при останов
+	}
+}
+
+@keyframes sushianim2 {
+	0% {
+		transform: scale(1) rotate(70deg);
+	}
+	50% {
+	}
+	100% {
+		transform: rotate(-10deg) scale(1.2);
+	}
+}
+
+.knife img {
+	width: 80px;
+	height: 80px;
+}
+
+.knife1 {
+	img {
+		position: absolute;
+		top: -370px;
+		left: 200px;
+
+		animation-name: knife1;
+		animation-duration: 2s;
+		animation-timing-function: cubic-bezier(
+			0.6,
+			-0.28,
+			0.735,
+			0.1
+		); // сценарий развития анимации между ключевыми кадрами
+		animation-iteration-count: 1; // кол-во проигрывания анимациии или бесконечность infinite
+		animation-direction: none; //Тип и направления проигрывания анимации - alternate(каждый чётный), alternate-reverse, reverse - задом наперёд
+		animation-play-state: running; //Состояние анимации none/running/paused
+		animation-delay: none; //Время до начала анимации, можно указать отрицательные значение
+		animation-fill-mode: none; // Определяет, какие стили должны применяться к элементу, когда анимация не проигрывается. Например, после её завершения или при останов
+	}
+	&._active {
+	}
+}
+
+@keyframes knife1 {
+	0% {
+		opacity: 1;
+	}
+
+	70% {
+		transform: rotate(1turn);
+		top: -25px;
+	}
+
+	86% {
+		opacity: 0;
+	}
+	100% {
+		transform: rotate(1turn);
+		opacity: 0;
+		top: -24px;
+	}
+}
+
+.title {
+	animation-name: title1;
+	animation-duration: 0.7s;
+	animation-timing-function: cubic-bezier(
+		0.6,
+		-0.28,
+		0.735,
+		0.1
+	); // сценарий развития анимации между ключевыми кадрами
+	animation-iteration-count: 1; // кол-во проигрывания анимациии или бесконечность infinite
+	animation-direction: none; //Тип и направления проигрывания анимации - alternate(каждый чётный), alternate-reverse, reverse - задом наперёд
+	animation-play-state: running; //Состояние анимации none/running/paused
+	animation-delay: 0.8s; //Время до начала анимации, можно указать отрицательные значение
+	animation-fill-mode: none; // Определяет, какие стили должны применяться к элементу, когда анимация не проигрывается. Например, после её завершения или при останов
+}
+
+@keyframes title1 {
+	0% {
+	}
+
+	100% {
+		font-weight: 700;
+		color: rgba(197, 195, 41, 0.568);
+		text-shadow: 0 0 10px rgb(100, 45, 66);
+	}
+}
+
+.title_knife {
+	animation-name: titleknife;
+	animation-duration: 0.64s;
+	animation-timing-function: cubic-bezier(
+		0.6,
+		-0.28,
+		0.1,
+		0.7
+	); // сценарий развития анимации между ключевыми кадрами
+	animation-iteration-count: 1; // кол-во проигрывания анимациии или бесконечность infinite
+	animation-direction: none; //Тип и направления проигрывания анимации - alternate(каждый чётный), alternate-reverse, reverse - задом наперёд
+	animation-play-state: running; //Состояние анимации none/running/paused
+	animation-delay: 1.47s; //Время до начала анимации, можно указать отрицательные значение
+	animation-fill-mode: both; // Определяет, какие стили должны применяться к элементу, когда анимация не проигрывается. Например, после её завершения или при останов
+}
+
+@keyframes titleknife {
+	0% {
+	}
+	80% {
+		transform: translate(760px, 0);
+	}
+
+	100% {
+		transform: translate(700px, 0);
+	}
+}
+
+.title_sushi {
+	animation-name: title_sushi;
+	animation-duration: 0.64s;
+	animation-timing-function: cubic-bezier(
+		0.6,
+		-0.28,
+		0.1,
+		0.7
+	); // сценарий развития анимации между ключевыми кадрами
+	animation-iteration-count: 1; // кол-во проигрывания анимациии или бесконечность infinite
+	animation-direction: none; //Тип и направления проигрывания анимации - alternate(каждый чётный), alternate-reverse, reverse - задом наперёд
+	animation-play-state: running; //Состояние анимации none/running/paused
+	animation-delay: 1.47s; //Время до начала анимации, можно указать отрицательные значение
+	animation-fill-mode: both; // Определяет, какие стили должны применяться к элементу, когда анимация не проигрывается. Например, после её завершения или при останов
+}
+
+@keyframes title_sushi {
+	0% {
+	}
+	80% {
+		transform: translate(-760px, 0);
+	}
+
+	100% {
+		transform: translate(-700px, 0);
+	}
+}

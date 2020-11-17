@@ -1,0 +1,24 @@
+//anim
+animation-name: text;
+animation-duration: 2.5s;
+animation-timing-function: ease-in-out; // сценарий развития анимации между ключевыми кадрами
+animation-iteration-count: infinite; // кол-во проигрывания анимациии или бесконечность infinite
+animation-direction: alternate; //Тип и направления проигрывания анимации - alternate(каждый чётный), alternate-reverse,
+reverse - задом наперёд
+animation-play-state: running; //Состояние анимации none/running/paused
+animation-delay: 0s; //Время до начала анимации, можно указать отрицательные значение
+animation-fill-mode: none; // Определяет, какие стили должны применяться к элементу, когда анимация не проигрывается.
+Например, после её завершения или при останов
+}
+@keyframes text {
+0% {
+color: black;
+}
+50% {
+text-shadow: 0 0 10px black;
+}
+100% {
+font-weight: 700;
+color: rgb(21, 228, 243);
+text-shadow: 0 0 20px black;
+}
